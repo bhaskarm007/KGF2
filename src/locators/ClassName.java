@@ -11,7 +11,7 @@ public static void main(String[] args) throws InterruptedException {
 	driver.get("https://www.coursera.org/");
 	driver.manage().window().maximize();
 	Thread.sleep(5000);
-	//driver.findElement(By.className("css-19qryfx")).click();
+	driver.findElement(By.className("css-19qryfx")).click();
 	//driver.quit();
 	
 	
