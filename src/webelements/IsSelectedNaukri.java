@@ -1,4 +1,6 @@
 package webelements;
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,22 +10,33 @@ public class IsSelectedNaukri {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.naukri.com/");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
 		driver.manage().window().maximize();
+
 		driver.findElement(By.id("login_Layer")).click();
-		Thread.sleep(3000);
+		
+// Thread.sleep(3000);
 		//Enter email id(*************) sendKeys
 		driver.findElement(By.cssSelector("input[placeholder='Enter your active Email ID / Username']")).sendKeys("*********"); 
 		// Enter password(***********) sendKeys
+		
 		driver.findElement(By.cssSelector("input[type='password']")).sendKeys("**********");
+		
 		//driver.findElement(By.xpath("//button[@type='submit']")).click();
+		
 		driver.findElement(By.xpath("//button[text()='Login']")).click();
-		Thread.sleep(3000);
+		
+//Thread.sleep(3000);
 		//driver.navigate().to("https://www.naukri.com/mnjuser/homepage");
 		//Thread.sleep(3000);
+		
 		driver.findElement(By.linkText("Complete profile")).click();
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//span[text()='Career profile']/following-sibling::span[text()='editOneTheme']")).click();
-		Thread.sleep(3000);
+		
+//Thread.sleep(3000);
+		driver.findElement(By.xpath("//span[text()='Career profile']/following-sibling::span[text()='editOneTheme']")).click();	
+//Thread.sleep(3000);
+		
 		driver.findElement(By.id("locationSugg")).click();
 		WebElement mumbaiCheckBox = driver.findElement(By.xpath("//li[text()='Mumbai']"));
 		
@@ -34,7 +47,7 @@ public class IsSelectedNaukri {
 		}
 		
 		mumbaiCheckBox.click();
-		Thread.sleep(3000);
+//Thread.sleep(3000);
 		
 		if(mumbaiCheckBox.getAttribute("class").contains("Checked")) {
 			System.out.println("Pass:: Mumbai is Checked");
@@ -42,7 +55,7 @@ public class IsSelectedNaukri {
 			System.out.println("Fail:: Mumbai is UnChecked");
 		}
 		
-		Thread.sleep(3000);
+//Thread.sleep(3000);
 		//both type is checking checkbox and with entering text values
 		
 		/*
