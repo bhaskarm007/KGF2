@@ -10,7 +10,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 // Script to get data from excel sheet and login on webpage
+
 public class Login {
+	
 public static void main(String[] args) throws IOException {
 	
 	String filePath = "./resources/testdata.xlsx";
@@ -41,3 +43,13 @@ public static void main(String[] args) throws IOException {
     
 }
 }
+//Excel data
+/*
+username	password
+admin		manager
+trainee		trainee
+bhaskar		bhaskar123
+bharath		bharath123
+mahi		mahi007
+
+*/
