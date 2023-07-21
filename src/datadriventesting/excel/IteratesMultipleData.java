@@ -9,8 +9,11 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 // Script to iterates Multiple data
+
 public class IteratesMultipleData {
+	
 public static void main(String[] args) throws IOException {
+	
 	String filePath = "./resources/testdata.xlsx";
 	
 	FileInputStream fin = new FileInputStream(filePath);
@@ -54,3 +57,14 @@ public static void main(String[] args) throws IOException {
 	
   }
 }
+//Excel data
+/*
+username	password
+admin		manager
+trainee		trainee
+bhaskar		bhaskar123
+bharath		bharath123
+mahi		mahi007
+
+*/
+
