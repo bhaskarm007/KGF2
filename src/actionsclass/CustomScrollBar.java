@@ -7,7 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-// Program to Custom Scroll Bar
+// Program to Scroll down Custom Scroll Bar(page down)
 public class CustomScrollBar {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdrive.chrome.driver", "./drivers/chromedriver.exe");
