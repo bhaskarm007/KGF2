@@ -8,7 +8,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
+// Script to get excel sheet values
+
 public class MultipleData {
+	
 public static void main(String[] args) throws IOException {
 	
 	String filePath = "./resources/testdata.xlsx";
