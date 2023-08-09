@@ -8,6 +8,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 // Script to get Total number of Row and Cells
+
 public class GetTotalRowsCells {
 
 	public static void main(String[] args) throws IOException {
@@ -25,7 +26,8 @@ public class GetTotalRowsCells {
 		System.out.println("cellCount="+cellCount);
 	}
 }
-
+//Always store the excel sheet data file inside selenium workspace
+//hear folder name:- resources --> sheet file name-->testdata--> under sheet names--> (sheet3)Multiple.
 // Excel data
 /*
 username	password
