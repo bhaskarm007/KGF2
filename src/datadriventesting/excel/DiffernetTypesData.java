@@ -8,7 +8,7 @@ import java.util.Date;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-// Dat Read From Excel sheet (.xls) .xlt(97-2003) format
+// Data Read From Excel sheet (.xls) .xlt(97-2003) format
 
 public class DiffernetTypesData {
 	
@@ -30,6 +30,8 @@ public static void main(String[] args) throws IOException {
 	System.out.println("date="+date);
 }
 }
+//Always store the excel sheet data file inside selenium workspace
+//hear folder name:- resources --> sheet file name-->testdata--> under sheet names--> (sheet2)TC002.
 //Excel sheet data
 // Saved this into (97-2003) extension .xlt
 /*
