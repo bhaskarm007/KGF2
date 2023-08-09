@@ -1,0 +1,14 @@
+{
+	"testAccount1": {
+		"username":"admin",
+		"password":"manager"
+	},
+	"testAccount2": {
+		"username":"karna",
+		"password" :"karna123"
+	},
+	"testAccount3": {
+		"username":"mahi",
+		"password":"mahi007"
+	}
+}
