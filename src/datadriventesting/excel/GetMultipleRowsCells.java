@@ -52,7 +52,8 @@ System.out.println("-----rows and cells values---------------");
 	}
 
 }
-
+//Always store the excel sheet data file inside selenium workspace
+//hear folder name:- resources --> sheet file name-->testdata--> under sheet names--> (sheet3)Multiple.
 //Excel data
 /*
 username	password
