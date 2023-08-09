@@ -10,6 +10,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 // Script to login multiple data
 
 public class MultipleDataLogin {
@@ -51,6 +52,8 @@ public static void main(String[] args) throws IOException {
 		}
     }
 }
+//Always store the excel sheet data file inside selenium workspace
+//hear folder name:- resources --> sheet file name-->testdata--> under sheet names--> (sheet3)Multiple.
 //Excel data
 /*
 username	password
