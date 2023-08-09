@@ -7,8 +7,12 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-// Data read from Excel Sheet 
+
+// Data read from Excel Sheet,
+// A Beginer Program to understand how to read data from excel Sheet and use it the Automation Script
+
 public class BasicFetchDatafromExcel1 {
+	
 public static void main(String[] args) throws FileNotFoundException, EncryptedDocumentException, IOException {
 	
 	String filePath = "./resources/testdata.xlsx";
@@ -27,6 +31,8 @@ public static void main(String[] args) throws FileNotFoundException, EncryptedDo
 	System.out.println("password="+password);
 }
 }
+// Always store the excel sheet data file inside selenium workspace
+// hear folder name:- resources --> sheet file name-->testdata--> under sheet names--> (sheet1)TC001.
 // Excel sheet data
 /*
         url	                       ||username ||password
