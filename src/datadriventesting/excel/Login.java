@@ -9,6 +9,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 // Script to get data from excel sheet and login on webpage
 
 public class Login {
@@ -19,7 +20,7 @@ public static void main(String[] args) throws IOException {
 	
 	FileInputStream fin = new FileInputStream(filePath);
 	
-	Workbook workbook = WorkbookFactory.create(fin);
+	Workbook workbook = WorkbookFactory.create(fin); // create() method's return type is Workbook interface
 	
 //  object creation	
 //	Sheet sheet = workbook.getSheet("TC001");
@@ -43,13 +44,11 @@ public static void main(String[] args) throws IOException {
     
 }
 }
+//Always store the excel sheet data file inside selenium workspace
+//hear folder name:- resources --> sheet file name-->testdata--> under sheet names--> (sheet1)TC001.
 //Excel data
 /*
 username	password
 admin		manager
-trainee		trainee
-bhaskar		bhaskar123
-bharath		bharath123
-mahi		mahi007
 
 */
