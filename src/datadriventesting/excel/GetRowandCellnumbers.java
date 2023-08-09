@@ -9,6 +9,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 // Script to get row and cell series numbers
+
 public class GetRowandCellnumbers {
 
 	public static void main(String[] args) throws IOException {
@@ -32,14 +33,13 @@ public class GetRowandCellnumbers {
 			//Iterate the Cells 
 			for(int j=0;j<=cellCount-1;j++) {
 				System.out.print(""+i+j+"::");
-				
 			}
 			System.out.println();
 		}
-		
 	}
 }
-
+//Always store the excel sheet data file inside selenium workspace
+//hear folder name:- resources --> sheet file name-->testdata--> under sheet names--> (sheet3)Multiple.
 //Excel data
 /*
 username	password
