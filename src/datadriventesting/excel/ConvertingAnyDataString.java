@@ -45,7 +45,8 @@ public class ConvertingAnyDataString {
 		System.out.println("p="+p);
 }
 }
-
+//Always store the excel sheet data file inside selenium workspace
+//hear folder name:- resources --> sheet file name-->testdata--> under sheet names--> (sheet2)TC002.
 //Excel sheet data
 //Saved this into (97-2003) extension .xlt
 /*
