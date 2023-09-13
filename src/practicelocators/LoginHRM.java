@@ -23,7 +23,7 @@ public class LoginHRM {
 		System.out.println("COMMENTS CODE LINE,ONE BY ONE OPEN");
 		
 		
-		driver.findElement(By.cssSelector("i[class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")).click();
+		driver.findElement(By.cssSelector("span[class='oxd-userdropdown-tab']")).click();
 		driver.findElement(By.xpath("//a[text()='Logout']")).click();
 		driver.quit();
 		
@@ -46,7 +46,7 @@ public class LoginHRM {
 		System.out.println("COMMENTS CODE LINE,ONE BY ONE OPEN");
 		
 		
-		driver1.findElement(By.cssSelector("i[class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")).click();
+		driver1.findElement(By.cssSelector("span[class='oxd-userdropdown-tab']")).click();
 		driver1.findElement(By.xpath("//a[text()='Logout']")).click();
 		driver1.quit();
 		
@@ -70,7 +70,7 @@ public class LoginHRM {
 		System.out.println("After opening Home page watch the left side search Field area");
 		
 		
-		driver2.findElement(By.cssSelector("i[class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")).click();
+		driver2.findElement(By.cssSelector("span[class='oxd-userdropdown-tab']")).click();
 		driver2.findElement(By.xpath("//a[text()='Logout']")).click();
 		driver2.quit();
 		
