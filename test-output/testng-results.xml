@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T11:44:02 IST" name="RegressionSuite" finished-at="2023-08-31T11:45:20 IST" duration-ms="78034">
+    <groups>
+    </groups>
+    <test started-at="2023-08-31T11:44:02 IST" name="ChromeTest" finished-at="2023-08-31T11:44:41 IST" duration-ms="39867">
+      <class name="extentreports.TestUsersAndReports">
+        <test-method is-config="true" signature="createReport(java.lang.String)[pri:0, instance:extentreports.TestUsersAndReports@443118b0]" started-at="2023-08-31T11:44:02 IST" name="createReport" finished-at="2023-08-31T11:44:02 IST" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="launchApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:extentreports.TestUsersAndReports@443118b0]" started-at="2023-08-31T11:44:02 IST" name="launchApp" finished-at="2023-08-31T11:44:17 IST" duration-ms="14851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="testReports()[pri:0, instance:extentreports.TestUsersAndReports@443118b0]" started-at="2023-08-31T11:44:17 IST" name="testReports" finished-at="2023-08-31T11:44:26 IST" duration-ms="8832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReports -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:extentreports.TestUsersAndReports@443118b0]" started-at="2023-08-31T11:44:26 IST" name="closeApp" finished-at="2023-08-31T11:44:28 IST" duration-ms="2039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:extentreports.TestUsersAndReports@443118b0]" started-at="2023-08-31T11:44:41 IST" name="flushReport" finished-at="2023-08-31T11:44:41 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- extentreports.TestUsersAndReports -->
+      <class name="extentreports.TestUsersAndReports$TC002TestUsers">
+        <test-method is-config="true" signature="launchApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:extentreports.TestUsersAndReports$TC002TestUsers@6b2ea799]" started-at="2023-08-31T11:44:28 IST" name="launchApp" finished-at="2023-08-31T11:44:40 IST" duration-ms="11783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="testUsers()[pri:0, instance:extentreports.TestUsersAndReports$TC002TestUsers@6b2ea799]" started-at="2023-08-31T11:44:40 IST" name="testUsers" finished-at="2023-08-31T11:44:40 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extentReports" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extentReports" is null
+at extentreports.TestUsersAndReports$TC002TestUsers.testUsers(TestUsersAndReports.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsers -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:extentreports.TestUsersAndReports$TC002TestUsers@6b2ea799]" started-at="2023-08-31T11:44:40 IST" name="closeApp" finished-at="2023-08-31T11:44:41 IST" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- extentreports.TestUsersAndReports$TC002TestUsers -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-08-31T11:44:41 IST" name="FirefoxTest" finished-at="2023-08-31T11:45:20 IST" duration-ms="38129">
+      <class name="extentreports.TestUsersAndReports">
+        <test-method is-config="true" signature="createReport(java.lang.String)[pri:0, instance:extentreports.TestUsersAndReports@f5958c9]" started-at="2023-08-31T11:44:41 IST" name="createReport" finished-at="2023-08-31T11:44:41 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="launchApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:extentreports.TestUsersAndReports@f5958c9]" started-at="2023-08-31T11:44:41 IST" name="launchApp" finished-at="2023-08-31T11:44:56 IST" duration-ms="14958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="testReports()[pri:0, instance:extentreports.TestUsersAndReports@f5958c9]" started-at="2023-08-31T11:44:56 IST" name="testReports" finished-at="2023-08-31T11:45:02 IST" duration-ms="5118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReports -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:extentreports.TestUsersAndReports@f5958c9]" started-at="2023-08-31T11:45:02 IST" name="closeApp" finished-at="2023-08-31T11:45:03 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:extentreports.TestUsersAndReports@f5958c9]" started-at="2023-08-31T11:45:19 IST" name="flushReport" finished-at="2023-08-31T11:45:20 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- extentreports.TestUsersAndReports -->
+      <class name="extentreports.TestUsersAndReports$TC002TestUsers">
+        <test-method is-config="true" signature="launchApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:extentreports.TestUsersAndReports$TC002TestUsers@233795b6]" started-at="2023-08-31T11:45:03 IST" name="launchApp" finished-at="2023-08-31T11:45:18 IST" duration-ms="15589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.actitime.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="testUsers()[pri:0, instance:extentreports.TestUsersAndReports$TC002TestUsers@233795b6]" started-at="2023-08-31T11:45:18 IST" name="testUsers" finished-at="2023-08-31T11:45:18 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extentReports" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.extentReports" is null
+at extentreports.TestUsersAndReports$TC002TestUsers.testUsers(TestUsersAndReports.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsers -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:extentreports.TestUsersAndReports$TC002TestUsers@233795b6]" started-at="2023-08-31T11:45:18 IST" name="closeApp" finished-at="2023-08-31T11:45:19 IST" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- extentreports.TestUsersAndReports$TC002TestUsers -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
