@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionSuite" verbose="5">
+
+  <test name="ChromeTest">
+
+    <classes>
+
+      <class name="testngtopic.xmlconfig.TC001"/>
+      <class name="testngtopic.xmlconfig.TC002"/>
+
+    </classes>
+
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
+<!-- xml-comment
+ctrl+shift+/(forward slash) -->
